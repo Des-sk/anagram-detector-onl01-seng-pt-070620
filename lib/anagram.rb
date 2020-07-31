@@ -9,4 +9,5 @@ class Anagram
   end
   
   def self.match(sting)
+    string.select
 end
