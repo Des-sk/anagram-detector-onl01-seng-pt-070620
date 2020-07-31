@@ -9,5 +9,7 @@ class Anagram
   end
   
   def self.match(sting)
-    string.select
+    string.select do |w|
+      w.split('').match== w.split("").match
+  end
 end
