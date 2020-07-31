@@ -8,7 +8,8 @@ class Anagram
     @word= word
   end
   
-  def self.match(sting)
+  def self.match(string)
     string.select do |w|
-      w.split('').match== w.split("").match
+      w.split("").match== w.split("").match
   end
+end
