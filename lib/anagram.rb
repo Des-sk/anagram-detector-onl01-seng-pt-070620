@@ -12,4 +12,3 @@ class Anagram
     string.select do |w|
       w.split('').match== w.split("").match
   end
-end
