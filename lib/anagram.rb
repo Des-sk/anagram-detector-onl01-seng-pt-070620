@@ -8,5 +8,10 @@ class Anagram
   
   def match(string)
     string.select do |w|
-      w.split("").match== w.split("").match
+      w.split("").match == w.split("").match
   end
+end
+end
+
+
+
